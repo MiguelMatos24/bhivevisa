@@ -1,13 +1,11 @@
 import Layout from "../components/layout";
-import Image from "next/image";
+import Form from "../components/form";
 export default function Home() {
   return (
-    <div className="home">
-      <Layout>
-        <div className="container">
-          <div className="row"></div>
-        </div>
-      </Layout>
-    </div>
+    <Layout>
+      <div className="container py-5">
+        <Form />
+      </div>
+    </Layout>
   );
 }
