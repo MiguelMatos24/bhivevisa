@@ -1,6 +1,6 @@
 const Form = () => {
   return (
-    <form className="components-forms">
+    <form className="components-form">
       <label htmlFor="title">Job Title:</label>
       <input type="text" name="title"></input>
       <label htmlFor="location">Location:</label>

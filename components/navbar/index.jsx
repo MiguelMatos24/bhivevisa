@@ -5,7 +5,7 @@ const nav = () => {
   return (
     <nav className="nav-container">
       <div classname="container-fluid">
-        <div className="d-flex flex-row  row-full">
+        <div className="d-flex flex-row row-full">
           <div className="logo-container">
             <Link href="/">
               <Image
