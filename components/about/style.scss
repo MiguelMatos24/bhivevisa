@@ -1,0 +1,19 @@
+.container-about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcd7d4;
+  padding: 40px 40px;
+
+  .title {
+    font-size: 30px;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+  }
+}

@@ -1,30 +1,20 @@
 import Layout from "../components/layout";
 import Form from "../components/form";
+import Section from "components/section";
+import About from "components/about";
 export default function Home() {
   return (
     <Layout>
       <div className="container">
         <div>
-          <h2>Any content goes here</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
-          <h2>blablabla</h2>
+          <Section />
         </div>
-        {/* <Form /> */}
+        <div>
+          <About />
+        </div>
+        <div>
+          <Form />
+        </div>
       </div>
     </Layout>
   );

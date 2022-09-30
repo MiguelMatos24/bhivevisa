@@ -20,7 +20,7 @@ const nav = () => {
         </div>
         <div className="row-nav">
           <Link href="/about">About us</Link>
-          <Link href="/globalmobility">Global Mobility & Immigration</Link>
+          <Link href="/global-mobility">Global Mobility & Immigration</Link>
           <Link href="/tax">Tax Representation</Link>
           <Link href="/property">Property Management</Link>
           <Link href="/contacts">Contacts</Link>
