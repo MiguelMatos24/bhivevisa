@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="container-fluid container-about">
+    <div className=" container-about">
       <div className="row-full">
         <div className="title">ABOUT US</div>
         <p>

@@ -3,10 +3,15 @@ footer {
 
   .container-footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     color: #2a2a2a;
-    padding: 15px 15px;
-    font-size: 12px;
+    font-size: 16px;
+
+    .icons {
+      a {
+        padding-left: 10px;
+      }
+    }
   }
 }
