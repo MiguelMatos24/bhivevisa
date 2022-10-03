@@ -1,32 +1,130 @@
+import { useState } from "react";
+
 const Form = () => {
+  const [inputs, setInputs] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const [form, setForm] = useState("");
+
+  const handleChange = (e) => {
+    setInputs((prev) => ({
+      ...prev,
+      [e.target.id]: e.target.value,
+    }));
+  };
+
+  const onSubmitForm = async (e) => {
+    e.preventDefault();
+
+    if (inputs.name && inputs.email && inputs.message) {
+      setForm({ state: "loading" });
+      try {
+        const res = await fetch(`api/contact`, {
+          method: "POST",
+          headers: {
+            "Content-type": "aplication/json",
+          },
+          body: JSON.stringify(inputs),
+        });
+        const { error } = await res.json();
+
+        if (error) {
+          setForm({
+            state: "error",
+            message: error,
+          });
+          return;
+        }
+
+        setForm({
+          state: "success",
+          message: "Your message was sent successfully.",
+        });
+        setInputs({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      } catch (error) {
+        setForm({
+          state: "error",
+          message: "Something went wrong",
+        });
+      }
+    }
+  };
+
   return (
-    <form className="components-form container p-4">
-      <div className="row ">
+    <form
+      className="components-form container p-4"
+      onSubmit={(e) => onSubmitForm(e)}
+    >
+      <div className="row">
         <h2>CONTACT US</h2>
         <div className="col-6 forms">
           <label htmlFor="name">
             Name<span>*</span>
           </label>
-          <input type="text" name="name" required></input>
+          <input
+            type="text"
+            name="name"
+            value={inputs.name || ""}
+            onChange={handleChange}
+            placeholder=" Name"
+            required
+          ></input>
           <label htmlFor="email">
             Email<span>*</span>
           </label>
-          <input type="text" name="email" required></input>
+          <input
+            type="text"
+            name="email"
+            value={inputs.email || ""}
+            onChange={handleChange}
+            placeholder=" Email"
+            required
+          ></input>
         </div>
         <div className="col-6 forms">
           <label htmlFor="phone">
             Phone<span>*</span>
           </label>
-          <input type="text" name="Phone" required></input>
+          <input
+            type="text"
+            name="phone"
+            value={inputs.phone || ""}
+            onChange={handleChange}
+            placeholder=" Phone"
+            required
+          ></input>
           <label htmlFor="country">Country</label>
-          <input type="selected" name="country"></input>
+          <input type="selected" name="country" placeholder=" Country"></input>
         </div>
         <div className="message">
           <label htmlFor="message">Message</label>
-          <textarea name="message" rows="4" cols="50"></textarea>
+          <textarea
+            name="message"
+            rows="4"
+            cols="50"
+            value={inputs.message || ""}
+            onChange={handleChange}
+            placeholder=" Message"
+          ></textarea>
         </div>
         <div className="container-button">
-          <button>SUBMIT</button>
+          <button type="submit">SUBMIT</button>
+          {form.state === "loading" ? (
+            <div>Sending....</div>
+          ) : form.state === "error" ? (
+            <div>{form.message}</div>
+          ) : (
+            form.state === "success" && <div>Sent successfully</div>
+          )}
         </div>
       </div>
     </form>

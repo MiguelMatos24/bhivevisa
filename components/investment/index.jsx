@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Investment = () => {
   return (
-    <div className=" container-fluid container-investment p-4">
+    <div className=" container container-investment p-4">
       <div className="row">
         <div className="col-4">
           <Image
