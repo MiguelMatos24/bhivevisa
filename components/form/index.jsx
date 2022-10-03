@@ -71,6 +71,7 @@ const Form = () => {
             Name<span>*</span>
           </label>
           <input
+            id="name"
             type="text"
             name="name"
             value={inputs.name || ""}
@@ -82,6 +83,7 @@ const Form = () => {
             Email<span>*</span>
           </label>
           <input
+            id="email"
             type="text"
             name="email"
             value={inputs.email || ""}
@@ -95,6 +97,7 @@ const Form = () => {
             Phone<span>*</span>
           </label>
           <input
+            id="phone"
             type="text"
             name="phone"
             value={inputs.phone || ""}
@@ -108,6 +111,7 @@ const Form = () => {
         <div className="message">
           <label htmlFor="message">Message</label>
           <textarea
+            id="message"
             name="message"
             rows="4"
             cols="50"
