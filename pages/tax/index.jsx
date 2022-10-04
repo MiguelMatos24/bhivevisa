@@ -1,13 +1,14 @@
 import Layout from "../../components/layout";
+import Form from "../../components/form";
+import Tax from "../../components/tax";
 
-const Tax = () => {
+const sectionTax = () => {
   return (
-    <div>
-      <Layout>
-        <div>Tax</div>
-      </Layout>
-    </div>
+    <Layout>
+      <Tax />
+      <Form />
+    </Layout>
   );
 };
 
-export default Tax;
+export default sectionTax;

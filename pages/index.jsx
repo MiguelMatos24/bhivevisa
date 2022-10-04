@@ -10,9 +10,9 @@ export default function Home() {
       <div>
         <Section />
       </div>
-      <div>
+      {/* <div>
         <About />
-      </div>
+      </div> */}
       <div>
         <Investment />
       </div>

@@ -23,7 +23,7 @@ const nav = () => {
           <Link href="/global-mobility">Global Mobility & Immigration</Link>
           <Link href="/tax">Tax Representation</Link>
           <Link href="/property">Property Management</Link>
-          <Link href="/contacts">Contacts</Link>
+          <Link href="/contacts">Contacts Us</Link>
         </div>
       </div>
     </nav>

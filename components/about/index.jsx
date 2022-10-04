@@ -1,20 +1,25 @@
-const About = () => {
+const componentAbout = () => {
   return (
-    <div className=" container-about">
-      <div className="row-full">
-        <div className="container">
-          <div className="title">ABOUT US</div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
-            amet explicabo, fuga veniam exercitationem, sapiente quisquam,
-            nostrum rerum deleniti necessitatibus tempore sit praesentium quod
-            aperiam quasi laboriosam commodi ex? Optio!
-          </p>
-          <button>KNOW MORE</button>
+    <div className="container-about">
+      <div className="title py-2">ABOUT US</div>
+      <div className="container-fluid container-img"></div>
+      <div className="container py-4">
+        <div className="row">
+          <div className="col-12 ">
+            <p className="py-2">
+              What drives us is to help our clients fulfill their aims of
+              relocation into Portugal or to acquire a second European
+              residence, through safe and responsible investment options. With
+              an experienced and multidisciplinary team, Bhive Visa takes a
+              holistic approach to immigration consultancy services, tax
+              representation and global property, handling all matters to ensure
+              a smooth and worry-free transition.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default About;
+export default componentAbout;

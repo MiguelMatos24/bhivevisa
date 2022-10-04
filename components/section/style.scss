@@ -1,7 +1,7 @@
 .section1 {
   width: 100%;
   height: 600px;
-  background-image: url("/images/image1.jpg");
+  background-image: url("/images/image5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -9,11 +9,12 @@
 
   text-align: center;
   h2 {
-    padding-top: 2.5px;
+    padding-top: 200px;
     font-size: 60px;
-    color: black;
+    color: white;
   }
   h3 {
-    padding-top: 5px;
+    font-size: 30px;
+    color: white;
   }
 }
