@@ -9,8 +9,10 @@ const componentAbout = () => {
             <p className="py-2">
               What drives us is to help our clients fulfill their aims of
               relocation into Portugal or to acquire a second European
-              residence, through safe and responsible investment options. With
-              an experienced and multidisciplinary team, Bhive Visa takes a
+              residence, through safe and responsible investment options.
+            </p>
+            <p className="py-2">
+              With an experienced and multidisciplinary team, Bhive Visa takes a
               holistic approach to immigration consultancy services, tax
               representation and global property, handling all matters to ensure
               a smooth and worry-free transition.

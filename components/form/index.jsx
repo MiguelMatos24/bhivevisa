@@ -61,7 +61,7 @@ const Form = () => {
 
   return (
     <form
-      className="components-form container-fluid p-4"
+      className="components-form container-fluid py-2"
       onSubmit={(e) => onSubmitForm(e)}
     >
       <div className="container">

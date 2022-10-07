@@ -38,8 +38,8 @@ const Team = () => {
     },
   ];
   return (
-    <div className="team p-4">
-      <h1 className="py-4">OUR TEAM</h1>
+    <div className="team py-2">
+      <h1 className="py-2">OUR TEAM</h1>
       <div className="row g-0">
         {team.map((person, key) => (
           <div className="col-md-4" key={key}>

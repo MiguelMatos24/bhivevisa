@@ -6,7 +6,7 @@ const Investment = () => {
     <div className=" container-fluid container-investment p-4">
       <div className="container">
         <div className="row d-flex flex-row">
-          <div className="col-4">
+          <div className="col-sm-4 col-md-4">
             <Image
               src="/images/image2.jpg"
               alt="image2"
@@ -14,8 +14,8 @@ const Investment = () => {
               height={400}
             />
           </div>
-          <div className="col-6">
-            <div className=" title">
+          <div className="col-12 col-md-8">
+            <div className="title">
               Bhive Visa provides one stop shop experience tailoring our
               services to the investors needs and interests.
             </div>

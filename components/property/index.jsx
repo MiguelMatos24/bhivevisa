@@ -1,7 +1,7 @@
 const componentProperty = () => {
   return (
     <div className="property">
-      <h2 className="py-4">Property Management</h2>
+      <h2 className="py-2">Property Management</h2>
       <div className="container-fluid image-container"></div>
       <div className="container">
         <div className="row">
