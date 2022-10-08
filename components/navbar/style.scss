@@ -3,7 +3,7 @@
   position: fixed;
   color: #2a2a2a;
   background-color: white;
-  height: 100px;
+  height: 200px;
   z-index: 999;
 
   a {
@@ -12,9 +12,10 @@
     text-decoration: none;
     font-size: 17px;
     display: block;
+    font-weight: bold;
   }
   a:hover {
-    font-weight: bold;
+    color: rgba(0, 0, 0, 0.581);
   }
 
   .logo-container {
@@ -90,6 +91,16 @@
     }
   }
 
+  .dropdown-item:active {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  .dropdown-item:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.581);
+  }
+
   .row-nav {
     display: flex;
     flex-direction: row;
@@ -98,6 +109,9 @@
   }
 
   @media (max-width: 767px) {
+    .nav {
+      max-height: 150px;
+    }
     .row-nav {
       display: none;
     }

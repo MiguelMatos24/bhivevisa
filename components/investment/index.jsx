@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Investment = () => {
   return (
-    <div className=" container-fluid container-investment p-4">
+    <div className=" container-fluid container-investment p-5">
       <div className="container">
         <div className="row d-flex flex-row">
           <div className="col-sm-4 col-md-4">

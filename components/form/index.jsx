@@ -61,12 +61,12 @@ const Form = () => {
 
   return (
     <form
-      className="components-form container-fluid py-2"
+      className="components-form container-fluid py-5"
       onSubmit={(e) => onSubmitForm(e)}
     >
       <div className="container">
         <div className="row">
-          <h2>CONTACT US</h2>
+          <h2 className="py-3">CONTACT US</h2>
           <div className="col-6 forms">
             <label htmlFor="name">
               Name<span>*</span>
@@ -77,7 +77,6 @@ const Form = () => {
               name="name"
               value={inputs.name || ""}
               onChange={handleChange}
-              placeholder=" Name"
               required
             ></input>
             <label htmlFor="email">
@@ -89,7 +88,6 @@ const Form = () => {
               name="email"
               value={inputs.email || ""}
               onChange={handleChange}
-              placeholder=" Email"
               required
             ></input>
           </div>
@@ -103,29 +101,23 @@ const Form = () => {
               name="phone"
               value={inputs.phone || ""}
               onChange={handleChange}
-              placeholder=" Phone"
               required
             ></input>
             <label htmlFor="country">Country</label>
-            <input
-              type="selected"
-              name="country"
-              placeholder=" Country"
-            ></input>
+            <input type="selected" name="country"></input>
           </div>
           <div className="message">
             <label htmlFor="message">Message</label>
             <textarea
               id="message"
               name="message"
-              rows="4"
+              rows="1"
               cols="50"
               value={inputs.message || ""}
               onChange={handleChange}
-              placeholder=" Message"
             ></textarea>
           </div>
-          <div className="container-button">
+          <div className="container-button py-5">
             <button type="submit">SUBMIT</button>
             {form.state === "loading" ? (
               <div>Sending....</div>

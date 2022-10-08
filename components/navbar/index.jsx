@@ -5,14 +5,14 @@ import { slide as Menu } from "react-burger-menu";
 const nav = () => {
   return (
     <nav className="nav-container">
-      <div classname="container-fluid">
+      <div className="container-fluid">
         <div className="d-flex flex-row row-full">
           <div className="logo-container">
             <Link href="/">
               <Image
                 src="/images/logo.svg"
-                width={100}
-                height={100}
+                width={130}
+                height={130}
                 alt="logo"
                 className="logo"
               />
@@ -23,9 +23,10 @@ const nav = () => {
               <Link className="menu-item" href="/about">
                 About us
               </Link>
-              <Link href="/global-mobility">
+              <li className="dropdown">
                 <a
-                  className="menu-item dropdown-toggle nav-link"
+                  href="#"
+                  className="dropdown-toggle"
                   id="navbarDarkDropdownMenuLink"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -33,29 +34,47 @@ const nav = () => {
                 >
                   Global Mobility & Immigration
                 </a>
-              </Link>
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="navbarDarkDropdownMenuLink"
-              >
-                <Link href="#">
-                  <a className="dropdown-item">Action</a>
-                </Link>
-                <Link href="#">
-                  <a className="dropdown-item">Action</a>
-                </Link>
-                <Link href="#">
-                  <a className="dropdown-item">Action</a>
-                </Link>
-              </ul>
-
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <Link className="menu-item" href="#">
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Golden Visa
+                      </a>
+                    </li>
+                  </Link>
+                  <Link className="menu-item" href="#">
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Digital Nomad Visa
+                      </a>
+                    </li>
+                  </Link>
+                  <Link className="menu-item" href="#">
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Citizenship
+                      </a>
+                    </li>
+                  </Link>
+                  <Link className="menu-item" href="#">
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        Refugee & Asylum
+                      </a>
+                    </li>
+                  </Link>
+                </ul>
+              </li>
               <Link className="menu-item" href="/tax">
                 Tax Representation
               </Link>
               <Link className="menu-item" href="/property">
                 Property Management
               </Link>
-              <Link className="menu-item" href="/contact">
+              <Link className="menu-item" href="/contacts">
                 Contact us
               </Link>
             </Menu>
@@ -65,50 +84,59 @@ const nav = () => {
           <Link className="menu-item" href="/about">
             About us
           </Link>
-          <Link className="menu-item" href="/global-mobility">
-            <a
-              href="#"
-              className="dropdown-toggle nav-link"
-              id="navbarDarkDropdownMenuLink"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Global Mobility & Immigration
-            </a>
-          </Link>
+
+          <a
+            href="#"
+            className="dropdown-toggle nav-link"
+            id="navbarDarkDropdownMenuLink"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Global Mobility & Immigration
+          </a>
+
           <ul
             className="dropdown-menu "
             aria-labelledby="navbarDarkDropdownMenuLink"
           >
-            <li>
-              <a className="dropdown-item" href="#">
-                Golden Visa
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Digital Nomad Visa
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Citizenship
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Refugee & Asylum
-              </a>
-            </li>
+            <Link className="menu-item" href="#">
+              <li>
+                <a className="dropdown-item" href="#">
+                  Golden Visa
+                </a>
+              </li>
+            </Link>
+            <Link className="menu-item" href="#">
+              <li>
+                <a className="dropdown-item" href="#">
+                  Digital Nomad Visa
+                </a>
+              </li>
+            </Link>
+            <Link className="menu-item" href="#">
+              <li>
+                <a className="dropdown-item" href="#">
+                  Citizenship
+                </a>
+              </li>
+            </Link>
+            <Link className="menu-item" href="#">
+              <li>
+                <a className="dropdown-item" href="#">
+                  Refugee & Asylum
+                </a>
+              </li>
+            </Link>
           </ul>
+
           <Link className="menu-item" href="/tax">
             Tax Representation
           </Link>
           <Link className="menu-item" href="/property">
             Property Management
           </Link>
-          <Link className="menu-item" href="/contact">
+          <Link className="menu-item" href="/contacts">
             Contact us
           </Link>
         </div>
