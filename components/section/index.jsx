@@ -7,7 +7,7 @@ const Section = () => {
         <div className="row">
           <div className="col-12">
             <h2>Global Mobility Made Easy </h2>
-            <h3 className="py-4">
+            <h3 className="py-3">
               Bhiva Visa provides a global service, offering a comprehensive,
               professional and tailor-made solution to citizens and corporate
               entities through every step of their relocation to Portugal.

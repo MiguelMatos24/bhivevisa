@@ -120,13 +120,6 @@ const Form = () => {
           </div>
           <div className="container-button py-5">
             <button type="submit">SUBMIT</button>
-            {form.state === "loading" ? (
-              <div>Sending....</div>
-            ) : form.state === "error" ? (
-              <div>{form.message}</div>
-            ) : (
-              form.state === "success" && <div>Sent successfully</div>
-            )}
           </div>
         </div>
       </div>

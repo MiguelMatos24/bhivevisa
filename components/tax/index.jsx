@@ -6,19 +6,19 @@ const Tax = () => {
       <div className="container container-tax py-4">
         <div className="row">
           <div className="col-12">
-            <p className="py-5">
+            <p className="py-3">
               Bhive Visa&lsquo;s tax department incorporates a team of experts
               to assist in applying for a Portuguese tax number, non-habitual
               resident applications and providing tax representation services.
             </p>
-            <p className="py-5">
+            <p className="py-3">
               We can help you minimise your tax liability, capitalise on tax
               deductions and manage your tax situation. With more experience
               than standard tax preparers, tax advisers can help with tax
               planning, inheritance issues, charitable donations, and other
               complex tax needs.
             </p>
-            <p className="py-5">
+            <p className="py-3">
               We can also represent you before the tax authorities in Portugal.
               Tax representation is the link between a non-resident in Portugal
               and the Portuguese Tax Authority. In practical terms, a fiscal

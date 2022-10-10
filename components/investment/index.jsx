@@ -6,7 +6,7 @@ const Investment = () => {
     <div className=" container-fluid container-investment p-5">
       <div className="container">
         <div className="row d-flex flex-row">
-          <div className="col-sm-4 col-md-4">
+          <div className="col-sm-4 col-md-4 col-lg-4">
             <Image
               src="/images/image2.jpg"
               alt="image2"
