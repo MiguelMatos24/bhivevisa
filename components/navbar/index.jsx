@@ -25,7 +25,6 @@ const nav = () => {
               </Link>
               <li className="dropdown">
                 <a
-                  href="#"
                   className="dropdown-toggle"
                   id="navbarDarkDropdownMenuLink"
                   role="button"
@@ -38,30 +37,30 @@ const nav = () => {
                   className="dropdown-menu"
                   aria-labelledby="navbarDarkDropdownMenuLink"
                 >
-                  <Link className="menu-item" href="#">
+                  <Link className="menu-item" href="/#">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="/#">
                         Golden Visa
                       </a>
                     </li>
                   </Link>
-                  <Link className="menu-item" href="#">
+                  <Link className="menu-item" href="/#">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="/#">
                         Digital Nomad Visa
                       </a>
                     </li>
                   </Link>
-                  <Link className="menu-item" href="#">
+                  <Link className="menu-item" href="/#">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="/#">
                         Citizenship
                       </a>
                     </li>
                   </Link>
-                  <Link className="menu-item" href="#">
+                  <Link className="menu-item" href="/#">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="/#">
                         Refugee & Asylum
                       </a>
                     </li>
