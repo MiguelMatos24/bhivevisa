@@ -19,8 +19,8 @@ const Form = () => {
 
   const onSubmitForm = async (e) => {
     e.preventDefault();
-
-    if (inputs.name && inputs.email && inputs.message) {
+    console.log(inputs);
+    if (inputs.name && inputs.email && inputs.message && inputs.phone) {
       setForm({ state: "loading" });
       try {
         const res = await fetch(`api/contact`, {

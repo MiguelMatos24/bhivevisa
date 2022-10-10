@@ -1,21 +1,23 @@
 import nodemailer from "nodemailer";
 
 export default async (req, res) => {
+  console.log(req);
   const { name, email, message, phone } = req.body;
+  console.log(req.body.name);
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
     secure: true,
     auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASSWORD,
+      user: "miguelmatoss24@gmail.com",
+      pass: "rdqbrfowyycihgkg",
     },
   });
 
   try {
     await transporter.sendMail({
       from: email,
-      to: "example@gmail.com",
+      to: "miguelmatoss24@gmail.com",
       subject: `Contact form submission from ${name}`,
       html: `<p>You have a contact form submission</p><br>
         <p><strong>Email: </strong> ${email}</p><br>
@@ -23,6 +25,7 @@ export default async (req, res) => {
         <p><strong>Message: </strong> ${message}</p><br>
       `,
     });
+    console.log("name", name);
   } catch (error) {
     return res.status(500).json({ error: error.message || error.toString() });
   }
