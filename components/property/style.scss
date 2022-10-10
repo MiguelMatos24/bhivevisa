@@ -12,14 +12,26 @@
     background-position: center;
   }
   .container-property {
+    border-bottom: 1px solid black;
+    .subtitle {
+      font-size: 40px;
+      font-weight: bold;
+    }
     p {
       font-size: 20px;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 912px) {
     h2 {
       font-size: 40px;
     }
+    .container-property {
+      text-align: center;
+      .subtitle {
+        font-size: 30px;
+      }
+    }
+
     p {
       font-size: 16px;
     }

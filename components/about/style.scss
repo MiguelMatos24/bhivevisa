@@ -15,12 +15,25 @@
     background-position: center;
   }
 
-  p {
-    font-size: 20px;
+  .subcontainer {
+    border-bottom: 1px solid black;
+    .subtitle {
+      font-size: 40px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 20px;
+    }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 912px) {
     .title {
       font-size: 40px;
+    }
+    .subcontainer {
+      text-align: center;
+      .subtitle {
+        font-size: 30px;
+      }
     }
     p {
       font-size: 16px;
