@@ -1,0 +1,9 @@
+.container-soon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .soon-title {
+    text-align: center;
+    font-size: 30px;
+  }
+}

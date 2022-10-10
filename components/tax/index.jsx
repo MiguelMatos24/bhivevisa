@@ -7,7 +7,7 @@ const Tax = () => {
         <div className="row">
           <div className="col-12">
             <p className="py-5">
-              Bhive Visa's tax department incorporates a team of experts to
+              Bhive Visa&apos;s tax department incorporates a team of experts to
               assist in applying for a Portuguese tax number, non-habitual
               resident applications and providing tax representation services.
             </p>

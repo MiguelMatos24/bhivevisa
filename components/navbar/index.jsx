@@ -39,22 +39,22 @@ const nav = () => {
                   className="dropdown-menu"
                   aria-labelledby="navbarDarkDropdownMenuLink"
                 >
-                  <Link className="menu-item" href="/#">
+                  <Link className="menu-item" href="/goldenvisa">
                     <li>
                       <a className="dropdown-item">Golden Visa</a>
                     </li>
                   </Link>
-                  <Link className="menu-item" href="/#">
+                  <Link className="menu-item" href="/digital">
                     <li>
                       <a className="dropdown-item">Digital Nomad Visa</a>
                     </li>
                   </Link>
-                  <Link className="menu-item" href="/#">
+                  <Link className="menu-item" href="/citizenship">
                     <li>
                       <a className="dropdown-item">Citizenship</a>
                     </li>
                   </Link>
-                  <Link className="menu-item" href="/#">
+                  <Link className="menu-item" href="/refugee">
                     <li>
                       <a className="dropdown-item">Refugee & Asylum</a>
                     </li>
@@ -92,22 +92,22 @@ const nav = () => {
             className="dropdown-menu "
             aria-labelledby="navbarDarkDropdownMenuLink"
           >
-            <Link className="menu-item" href="#">
+            <Link className="menu-item" href="/goldenvisa">
               <li>
                 <a className="dropdown-item">Golden Visa</a>
               </li>
             </Link>
-            <Link className="menu-item" href="#">
+            <Link className="menu-item" href="/digital">
               <li>
                 <a className="dropdown-item">Digital Nomad Visa</a>
               </li>
             </Link>
-            <Link className="menu-item" href="#">
+            <Link className="menu-item" href="/citizenship">
               <li>
                 <a className="dropdown-item">Citizenship</a>
               </li>
             </Link>
-            <Link className="menu-item" href="#">
+            <Link className="menu-item" href="/refugee">
               <li>
                 <a className="dropdown-item">Refugee & Asylum</a>
               </li>
