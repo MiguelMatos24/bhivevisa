@@ -1,3 +1,5 @@
+import Fade from "react-reveal/Fade";
+
 const Team = () => {
   const team = [
     {
@@ -39,22 +41,27 @@ const Team = () => {
   ];
   return (
     <div className="team">
-      <h1 className="pb-5">OUR TEAM</h1>
+      <Fade bottom big>
+        <h1 className="pb-5">OUR TEAM</h1>
+      </Fade>
+
       <div className="row g-0">
         {team.map((person, key) => (
-          <div className="col-md-4" key={key}>
-            <div className="card-container p-4">
-              <div className="card-body">
-                <div
-                  className="person"
-                  style={{ backgroundImage: `url(${person.url})` }}
-                />
-                <div className="card-title">{person.name}</div>
-                <div className="card-text">{person.post}</div>
-                <div className="card-text">{person.mail}</div>
+          <Fade bottom big>
+            <div className="col-md-4" key={key}>
+              <div className="card-container p-4">
+                <div className="card-body">
+                  <div
+                    className="person"
+                    style={{ backgroundImage: `url(${person.url})` }}
+                  />
+                  <div className="card-title">{person.name}</div>
+                  <div className="card-text">{person.post}</div>
+                  <div className="card-text">{person.mail}</div>
+                </div>
               </div>
             </div>
-          </div>
+          </Fade>
         ))}
       </div>
     </div>
