@@ -1,9 +1,7 @@
 import nodemailer from "nodemailer";
 
-export default async (req, res) => {
-  console.log(req);
+const f = async (req, res) => {
   const { name, email, message, phone } = req.body;
-  console.log(req.body.name);
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
@@ -31,3 +29,5 @@ export default async (req, res) => {
   }
   return res.status(200).json({ error: "" });
 };
+
+export default f;

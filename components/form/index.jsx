@@ -19,14 +19,15 @@ const Form = () => {
 
   const onSubmitForm = async (e) => {
     e.preventDefault();
-    console.log(inputs);
+    console.log("inputs", inputs);
     if (inputs.name && inputs.email && inputs.message && inputs.phone) {
       setForm({ state: "loading" });
       try {
         const res = await fetch(`api/contact`, {
           method: "POST",
           headers: {
-            "Content-type": "aplication/json",
+            "Content-Type": "application/json",
+            Accept: "application/json",
           },
           body: JSON.stringify(inputs),
         });
