@@ -41,30 +41,22 @@ const nav = () => {
                 >
                   <Link className="menu-item" href="/#">
                     <li>
-                      <a className="dropdown-item" href="/#">
-                        Golden Visa
-                      </a>
+                      <a className="dropdown-item">Golden Visa</a>
                     </li>
                   </Link>
                   <Link className="menu-item" href="/#">
                     <li>
-                      <a className="dropdown-item" href="/#">
-                        Digital Nomad Visa
-                      </a>
+                      <a className="dropdown-item">Digital Nomad Visa</a>
                     </li>
                   </Link>
                   <Link className="menu-item" href="/#">
                     <li>
-                      <a className="dropdown-item" href="/#">
-                        Citizenship
-                      </a>
+                      <a className="dropdown-item">Citizenship</a>
                     </li>
                   </Link>
                   <Link className="menu-item" href="/#">
                     <li>
-                      <a className="dropdown-item" href="/#">
-                        Refugee & Asylum
-                      </a>
+                      <a className="dropdown-item">Refugee & Asylum</a>
                     </li>
                   </Link>
                 </ul>
@@ -87,7 +79,6 @@ const nav = () => {
           </Link>
 
           <a
-            href="#"
             className="dropdown-toggle nav-link"
             id="navbarDarkDropdownMenuLink"
             role="button"
@@ -103,30 +94,22 @@ const nav = () => {
           >
             <Link className="menu-item" href="#">
               <li>
-                <a className="dropdown-item" href="#">
-                  Golden Visa
-                </a>
+                <a className="dropdown-item">Golden Visa</a>
               </li>
             </Link>
             <Link className="menu-item" href="#">
               <li>
-                <a className="dropdown-item" href="#">
-                  Digital Nomad Visa
-                </a>
+                <a className="dropdown-item">Digital Nomad Visa</a>
               </li>
             </Link>
             <Link className="menu-item" href="#">
               <li>
-                <a className="dropdown-item" href="#">
-                  Citizenship
-                </a>
+                <a className="dropdown-item">Citizenship</a>
               </li>
             </Link>
             <Link className="menu-item" href="#">
               <li>
-                <a className="dropdown-item" href="#">
-                  Refugee & Asylum
-                </a>
+                <a className="dropdown-item">Refugee & Asylum</a>
               </li>
             </Link>
           </ul>
