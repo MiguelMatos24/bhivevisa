@@ -9,13 +9,15 @@ const nav = () => {
         <div className="d-flex flex-row row-full">
           <div className="logo-container">
             <Link href="/">
-              <Image
-                src="/images/logo.svg"
-                width={130}
-                height={130}
-                alt="logo"
-                className="logo"
-              />
+              <div>
+                <Image
+                  src="/images/logo.svg"
+                  width={130}
+                  height={130}
+                  alt="logo"
+                  className="logo"
+                />
+              </div>
             </Link>
           </div>
           <div className="menu-container">
