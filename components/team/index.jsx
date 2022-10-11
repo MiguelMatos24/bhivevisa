@@ -41,14 +41,14 @@ const Team = () => {
   ];
   return (
     <div className="team">
-      <Fade bottom big>
+      <Fade bottom>
         <h1 className="pb-5">OUR TEAM</h1>
       </Fade>
 
       <div className="row g-0">
         {team.map((person, key) => (
-          <Fade bottom big>
-            <div className="col-md-4" key={key}>
+          <div className="col-md-4" key={key}>
+            <Fade bottom>
               <div className="card-container p-4">
                 <div className="card-body">
                   <div
@@ -60,8 +60,8 @@ const Team = () => {
                   <div className="card-text">{person.mail}</div>
                 </div>
               </div>
-            </div>
-          </Fade>
+            </Fade>
+          </div>
         ))}
       </div>
     </div>
