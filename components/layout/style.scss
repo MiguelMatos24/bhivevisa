@@ -1,4 +1,10 @@
 .nav-holder {
-  height: 100px;
+  height: 150px;
   position: relative;
+}
+
+@media (max-width: 912px) {
+  .nav-holder {
+    height: 100px;
+  }
 }
