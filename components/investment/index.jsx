@@ -6,7 +6,7 @@ const Investment = () => {
     <div className=" container-fluid container-investment p-5">
       <div className="container">
         <div className="row d-flex flex-row">
-          <Fade left>
+          <Fade bottom>
             <div className="col-sm-4 col-md-4 col-lg-4">
               <Image
                 src="/images/image2.jpg"
@@ -16,7 +16,7 @@ const Investment = () => {
               />
             </div>
           </Fade>
-          <Fade right>
+          <Fade bottom>
             <div className="col-12 col-md-8">
               <div className="title">
                 Bhive Visa provides one stop shop experience tailoring our
