@@ -71,7 +71,7 @@
     /* General sidebar styles */
     .bm-menu {
       background: white;
-      padding: 2.5em 1.5em 0;
+      padding: 2.5em 0.5em;
       font-size: 1.15em;
     }
 
@@ -108,13 +108,13 @@
     justify-content: center;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 912px) {
     .row-nav {
       display: none;
     }
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 912px) {
     .bm-burger-button {
       display: none;
     }

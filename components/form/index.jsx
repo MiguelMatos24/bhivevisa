@@ -7,6 +7,7 @@ const Form = () => {
     email: "",
     phone: "",
     message: "",
+    country: "",
   });
 
   const [form, setForm] = useState("");
@@ -21,7 +22,13 @@ const Form = () => {
   const onSubmitForm = async (e) => {
     e.preventDefault();
     console.log("inputs", inputs);
-    if (inputs.name && inputs.email && inputs.message && inputs.phone) {
+    if (
+      inputs.name &&
+      inputs.email &&
+      inputs.message &&
+      inputs.phone &&
+      inputs.country
+    ) {
       setForm({ state: "loading" });
       try {
         const res = await fetch(`api/contact`, {
@@ -51,6 +58,7 @@ const Form = () => {
           email: "",
           phone: "",
           message: "",
+          country: "",
         });
       } catch (error) {
         setForm({
@@ -107,7 +115,13 @@ const Form = () => {
                 required
               ></input>
               <label htmlFor="country">Country</label>
-              <input type="selected" name="country"></input>
+              <input
+                id="country"
+                type="text"
+                name="country"
+                value={inputs.country}
+                onChange={handleChange}
+              ></input>
             </div>
             <div className="message">
               <label htmlFor="message">Message</label>

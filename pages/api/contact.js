@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 const f = async (req, res) => {
-  const { name, email, message, phone } = req.body;
+  const { name, email, message, phone, country } = req.body;
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
@@ -20,7 +20,9 @@ const f = async (req, res) => {
       html: `<p>You have a contact form submission</p><br>
         <p><strong>Email: </strong> ${email}</p><br>
         <p><strong>Phone: </strong> ${phone}</p><br>
+        <p><strong>Country: </strong> ${country}</p><br>
         <p><strong>Message: </strong> ${message}</p><br>
+      
       `,
     });
     console.log("name", name);
