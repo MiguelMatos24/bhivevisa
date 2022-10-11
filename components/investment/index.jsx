@@ -17,7 +17,7 @@ const Investment = () => {
         </Fade>
         <Fade bottom>
           <div className="col-12 col-md-8">
-            <div className="title">
+            <div className="title p-3">
               Bhive Visa provides one stop shop experience tailoring our
               services to the investors needs and interests.
             </div>
