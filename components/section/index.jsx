@@ -3,8 +3,8 @@ import Fade from "react-reveal/Fade";
 const Section = () => {
   return (
     <div className="section1">
-      <Fade bottom big>
-        <div className="container-fluid">
+      <Fade bottom>
+        <div className="container-fluid ">
           <div className="row">
             <div className="col-12">
               <h2>Global Mobility Made Easy </h2>
