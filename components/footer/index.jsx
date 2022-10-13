@@ -10,7 +10,7 @@ const footer = () => {
             <Image src="/images/logo.svg" width={80} height={80} alt="logo" />
 
             <div className="icons py-2">
-              <Link href="#">
+              <Link href="https://www.facebook.com/">
                 <a>
                   <Image
                     src="/icons/facebook.svg"
@@ -21,7 +21,7 @@ const footer = () => {
                   />
                 </a>
               </Link>
-              <Link href="#">
+              <Link href="https://www.instragram.com/">
                 <a>
                   <Image
                     src="/icons/instagram.svg"
@@ -32,7 +32,7 @@ const footer = () => {
                   />
                 </a>
               </Link>
-              <Link href="#">
+              <Link href="https://www.linkedin.com/">
                 <a>
                   <Image
                     src="/icons/linkedin.svg"
