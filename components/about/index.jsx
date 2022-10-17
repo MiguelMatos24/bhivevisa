@@ -7,6 +7,11 @@ const componentAbout = () => {
         <div className="title py-5">ABOUT US</div>
       </Fade>
       <div className="container-fluid container-img"></div>
+      <Fade bottom>
+        <div className="title p-5">
+          Bhive Visa is all about cross-border living
+        </div>
+      </Fade>
       <div className="container p-4">
         <div className="row">
           <div className="col-12 p-3 subcontainer">

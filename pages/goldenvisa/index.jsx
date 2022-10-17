@@ -1,14 +1,13 @@
 import Layout from "../../components/layout";
-import Form from "../../components/form";
-import Soon from "components/soon";
 
-const Golden = () => {
+import Golden from "../../components/golden";
+
+const GoldenVisa = () => {
   return (
     <Layout>
-      <Soon />
-      <Form />
+      <Golden />
     </Layout>
   );
 };
 
-export default Golden;
+export default GoldenVisa;

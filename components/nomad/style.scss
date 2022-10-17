@@ -1,0 +1,61 @@
+.nomad {
+  h2 {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+  }
+  .image-container {
+    height: 400px;
+    background-image: url("/images/image13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .container-nomad {
+    border-bottom: 1px solid black;
+    .subtitle {
+      font-size: 40px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+    text-align: center;
+    button {
+      background-color: black;
+      color: white;
+      padding: 15px 100px;
+      border: none;
+      border-radius: 5px;
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 912px) {
+    .image-container {
+      height: 300px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    .container-nomad {
+      text-align: center;
+      .subtitle {
+        font-size: 30px;
+      }
+    }
+
+    .container-contact {
+      font-size: 24px;
+      button {
+        font-size: 18px;
+      }
+    }
+  }
+}

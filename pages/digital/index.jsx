@@ -1,12 +1,10 @@
 import Layout from "../../components/layout";
-import Form from "../../components/form";
-import Soon from "components/soon";
+import Nomad from "../../components/nomad";
 
 const Digital = () => {
   return (
     <Layout>
-      <Soon />
-      <Form />
+      <Nomad />
     </Layout>
   );
 };
