@@ -10,7 +10,7 @@ const Golden = () => {
       </Fade>
       <div className="container">
         <Fade bottom>
-          <div className="row py-5">
+          <div className="row pb-5">
             <div className="col-lg-6 col-12 text-container nopadding">
               <div className="py-5 subtitle">Overview</div>
               <p className="px-4">
@@ -31,7 +31,7 @@ const Golden = () => {
         </Fade>
         <Fade bottom>
           <div className="row pb-5">
-            <div className="col-lg-6 text-container nopadding">
+            <div className="col-lg-6 residence nopadding">
               <div className="py-5 subtitle">Residence Card</div>
               <p className="px-4">
                 The investors and their family will hold a Portuguese residence
@@ -56,7 +56,7 @@ const Golden = () => {
         </Fade>
         <Fade bottom>
           <div className="row pb-5">
-            <div className="col-lg-6  nopadding text-container">
+            <div className="col-lg-6  nopadding applicants">
               <div className="py-5 subtitle">Applicants</div>
               <p className="px-4">
                 More than 25,000 citizens have already obtained a Portuguese
