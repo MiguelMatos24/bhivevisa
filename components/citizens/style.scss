@@ -1,0 +1,105 @@
+.container-citizens {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .nopadding {
+    padding: 0px 0px;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f4f3f2;
+    height: 400px;
+
+    .subtitle {
+      font-size: 40px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+      background-color: black;
+      color: white;
+      padding: 15px 100px;
+      border: none;
+      border-radius: 5px;
+      font-size: 30px;
+    }
+  }
+
+  .container-contact {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .law-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f4f3f2;
+    height: 400px;
+
+    .subtitle {
+      font-size: 40px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .portugal-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f4f3f2;
+    height: 400px;
+
+    .subtitle {
+      font-size: 40px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 912px) {
+    .title {
+      font-size: 30px;
+    }
+
+    .text-container {
+      height: 350px;
+      .subtitle {
+        font-size: 30px;
+      }
+    }
+
+    .law-container {
+      height: 480px;
+    }
+    .portugal-container {
+      height: 350px;
+    }
+    .container-contact {
+      font-size: 24px;
+
+      button {
+        font-size: 18px;
+      }
+    }
+  }
+}
