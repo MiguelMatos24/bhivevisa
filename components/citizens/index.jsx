@@ -14,8 +14,6 @@ const Citizens = () => {
             <div className="col-lg-6 col-12 text-container nopadding">
               <div className="py-5 subtitle">Overview</div>
               <p className="px-4">
-                There are several ways to acquire Portuguese Nationality.
-                <br></br>
                 Citizenship provides a legal status and relation between an
                 individual and a state to which a person’s rights and duties are
                 attached.
@@ -60,7 +58,8 @@ const Citizens = () => {
                 nationality to acquire Portuguese nationality. However, the laws
                 of other countries may require one to give up Portuguese
                 nationality in order to have the nationality of one of those
-                countries.
+                countries. There are several ways to acquire Portuguese
+                Nationality.
               </p>
             </div>
             <div className="col-lg-6 col-12 nopadding">

@@ -1,11 +1,11 @@
-import Layout from "../../components/layout";
-import Form from "../../components/form";
-import Soon from "components/soon";
+import Layout from "components/layout";
+import Form from "components/form";
+import Asylum from "components/asylum";
 
 const Refugee = () => {
   return (
     <Layout>
-      <Soon />
+      <Asylum />
       <Form />
     </Layout>
   );
