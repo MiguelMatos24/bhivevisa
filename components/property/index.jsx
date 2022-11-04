@@ -29,7 +29,7 @@ const componentProperty = () => {
             </Fade>
             <Fade bottom>
               <p className="py-3">
-                Bhive Visa's real estate department provides professional,
+                Bhive Visa&rsquo;s real estate department provides professional,
                 customised, and effective property management solutions,
                 handling daily repairs and ongoing maintenance, security and
                 maintenance of your properties, so you have peace of mind while
