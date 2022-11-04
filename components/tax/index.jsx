@@ -1,4 +1,5 @@
 import Fade from "react-reveal/Fade";
+import Link from "next/link";
 
 const Tax = () => {
   return (
@@ -11,45 +12,51 @@ const Tax = () => {
         <div className="row">
           <div className="col-12 subcontainer p-3">
             <Fade bottom>
-              <div className="subtitle py-3">Tax Department</div>
+              <div className="subtitle py-3">Tax Representative</div>
             </Fade>
             <Fade bottom>
               <p className="py-3">
-                Bhive Visa&lsquo;s tax department incorporates a team of experts
-                to assist in applying for a Portuguese tax number, non-habitual
-                resident applications and providing tax representation services.
+                Bhive Visa can act as tax representative for you, so that you do
+                not have to deal personally with matters relating to the
+                Portuguese tax system. As a new resident in Portugal, you will
+                benefit from the Non Habitual Resident status. The NHR status is
+                available to anyone who was not a tax resident in Portugal in
+                the last five years.
               </p>
             </Fade>
           </div>
           <div className="col-12 subcontainer p-3">
             <Fade bottom>
-              <div className="subtitle py-3">Tax Liability</div>
+              <div className="subtitle py-3">NHR Resindent</div>
             </Fade>
             <Fade bottom>
               <p className="py-3">
-                We can help you minimise your tax liability, capitalise on tax
-                deductions and manage your tax situation. With more experience
-                than standard tax preparers, tax advisers can help with tax
-                planning, inheritance issues, charitable donations, and other
-                complex tax needs.
+                An NHR resident has international income, including salary,
+                business earnings, investment yields, rental income, capital
+                gains, and pensions, exempt from taxation in Portugal for a
+                period of ten years. Additionally, they are also exempt from tax
+                on their wealth during this period. Any income generated in
+                Portugal will be taxed at a flat rate of 20% instead of the
+                bracketed income tax rates that climb as high as 48%.
               </p>
             </Fade>
           </div>
           <div
             className="col-12 subcontainer p-3"
             style={{ borderBottom: "none" }}
-          >
+          ></div>
+          <div className="container container-contact">
             <Fade bottom>
-              <div className="subtitle py-3">Fiscal Representative</div>
+              <div className="sub-title py-3">
+                Contact us today to advise you on the best way!
+              </div>
             </Fade>
             <Fade bottom>
-              <p className="py-3">
-                We can also represent you before the tax authorities in
-                Portugal. Tax representation is the link between a non-resident
-                in Portugal and the Portuguese Tax Authority. In practical
-                terms, a fiscal representative in Portugal acts on behalf of a
-                non-resident in all fiscal and tax matters.
-              </p>
+              <div className="py-5">
+                <Link href="/contacts">
+                  <button>Contact Us</button>
+                </Link>
+              </div>
             </Fade>
           </div>
         </div>

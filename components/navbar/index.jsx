@@ -54,9 +54,19 @@ const nav = () => {
                       <a className="dropdown-item">Citizenship</a>
                     </li>
                   </Link>
-                  <Link className="menu-item" href="/refugee">
+                  <Link className="menu-item" href="/entrepreneurs">
                     <li>
-                      <a className="dropdown-item">Refugee & Asylum</a>
+                      <a className="dropdown-item">Entrepreneurs</a>
+                    </li>
+                  </Link>
+                  <Link className="menu-item" href="/retirement">
+                    <li>
+                      <a className="dropdown-item">Retirement & Own Income</a>
+                    </li>
+                  </Link>
+                  <Link className="menu-item" href="/startup">
+                    <li>
+                      <a className="dropdown-item">Start Up & Tech Visa </a>
                     </li>
                   </Link>
                 </ul>
@@ -107,13 +117,22 @@ const nav = () => {
                 <a className="dropdown-item">Citizenship</a>
               </li>
             </Link>
-            <Link className="menu-item" href="/refugee">
+            <Link className="menu-item" href="/entrepreneurs">
               <li>
-                <a className="dropdown-item">Refugee & Asylum</a>
+                <a className="dropdown-item">Entrepreneurs</a>
+              </li>
+            </Link>
+            <Link className="menu-item" href="/retirement">
+              <li>
+                <a className="dropdown-item">Retirement & Own Income</a>
+              </li>
+            </Link>
+            <Link className="menu-item" href="/startup">
+              <li>
+                <a className="dropdown-item">Start Up & Tech Visa </a>
               </li>
             </Link>
           </ul>
-
           <Link className="menu-item" href="/tax">
             Tax Representation
           </Link>

@@ -6,7 +6,7 @@ const Citizens = () => {
   return (
     <div className="container-citizens">
       <Fade bottom>
-        <div className="title py-5">Citizanship</div>
+        <div className="title py-5">Citizenship</div>
       </Fade>
       <div className="container">
         <Fade bottom>
@@ -81,7 +81,7 @@ const Citizens = () => {
           </div>
         </Fade>
         <Fade bottom>
-          <div className="py-5">
+          <div className="pt-5">
             <Link href="/contacts">
               <button>Contact Us</button>
             </Link>
