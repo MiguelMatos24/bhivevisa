@@ -18,8 +18,8 @@ const componentProperty = () => {
               <p className="py-3">
                 We at Bhive Visa are experts in property management or luxury
                 real estate. If you are often abroad, we can contact you from
-                your property, so you can worry about what's really important to
-                you.
+                your property, so you can worry about what&rsquo;s really
+                important to you.
               </p>
             </Fade>
           </div>
