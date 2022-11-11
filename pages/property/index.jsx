@@ -3,13 +3,15 @@ import ComponentProperty from "components/property";
 import Head from "next/head";
 
 const Property = () => {
-  <Head>
-    <title>Property Management</title>
-  </Head>;
   return (
-    <Layout>
-      <ComponentProperty />
-    </Layout>
+    <>
+      <Head>
+        <title>Property Management</title>
+      </Head>
+      <Layout>
+        <ComponentProperty />
+      </Layout>
+    </>
   );
 };
 

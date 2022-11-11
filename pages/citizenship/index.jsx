@@ -3,13 +3,15 @@ import Citizens from "../../components/citizens";
 import Head from "next/head";
 
 const Citizenship = () => {
-  <Head>
-    <title>Citizenship</title>
-  </Head>;
   return (
-    <Layout>
-      <Citizens />
-    </Layout>
+    <>
+      <Head>
+        <title>Citizenship</title>
+      </Head>
+      <Layout>
+        <Citizens />
+      </Layout>
+    </>
   );
 };
 

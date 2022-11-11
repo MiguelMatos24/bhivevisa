@@ -3,13 +3,15 @@ import Entrepreneur from "components/entrepreneur";
 import Head from "next/head";
 
 const Refugee = () => {
-  <Head>
-    <title>Entrepreneurs</title>
-  </Head>;
   return (
-    <Layout>
-      <Entrepreneur />
-    </Layout>
+    <>
+      <Head>
+        <title>Entrepreneurs</title>
+      </Head>
+      <Layout>
+        <Entrepreneur />
+      </Layout>
+    </>
   );
 };
 

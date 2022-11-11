@@ -3,13 +3,15 @@ import Layout from "../../components/layout";
 import Nomad from "../../components/nomad";
 
 const Digital = () => {
-  <Head>
-    <title>Digital Nomad</title>
-  </Head>;
   return (
-    <Layout>
-      <Nomad />
-    </Layout>
+    <>
+      <Head>
+        <title>Digital Nomad</title>
+      </Head>
+      <Layout>
+        <Nomad />
+      </Layout>
+    </>
   );
 };
 

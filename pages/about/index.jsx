@@ -4,14 +4,16 @@ import Team from "components/team";
 import Head from "next/head";
 
 const About = () => {
-  <Head>
-    <title>About Us</title>
-  </Head>;
   return (
-    <Layout>
-      <ComponentAbout />
-      <Team />
-    </Layout>
+    <>
+      <Head>
+        <title>About Us</title>
+      </Head>
+      <Layout>
+        <ComponentAbout />
+        <Team />
+      </Layout>
+    </>
   );
 };
 

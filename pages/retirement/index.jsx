@@ -3,13 +3,15 @@ import Income from "components/income";
 import Head from "next/head";
 
 const Retirement = () => {
-  <Head>
-    <title>Retirement & Own Income</title>
-  </Head>;
   return (
-    <Layout>
-      <Income />
-    </Layout>
+    <>
+      <Head>
+        <title>Retirement & Own Income</title>
+      </Head>
+      <Layout>
+        <Income />
+      </Layout>
+    </>
   );
 };
 
