@@ -5,7 +5,7 @@ const Tax = () => {
   return (
     <div className="tax">
       <Fade bottom>
-        <h2 className="title py-5">Tax Representation</h2>
+        <h2 className="title py-5">TAX REPRESENTATIVE</h2>
       </Fade>
       <div className="container-fluid container-image"></div>
       <div className="container container-tax p-4">
