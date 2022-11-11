@@ -5,7 +5,7 @@ const componentProperty = () => {
   return (
     <div className="property">
       <Fade bottom>
-        <h2 className="py-5">Property Management</h2>
+        <h2 className="py-5">PROPERTY MANAGEMENT</h2>
       </Fade>
       <div className="container-fluid image-container"></div>
       <div className="container p-4">
