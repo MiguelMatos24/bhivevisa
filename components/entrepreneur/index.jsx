@@ -5,7 +5,7 @@ const Asylum = () => {
   return (
     <div className="entrepreneurs-container">
       <Fade bottom>
-        <h2 className="py-5">Entrepreneurs</h2>
+        <h2 className="py-5">ENTREPRENEURS</h2>
       </Fade>
       <div className="container-fluid image-container"></div>
       <div className="container p-4">

@@ -6,7 +6,7 @@ const Citizens = () => {
   return (
     <div className="container-citizens">
       <Fade bottom>
-        <div className="title py-5">Citizenship</div>
+        <div className="title py-5">CITIZENSHIP</div>
       </Fade>
       <div className="container">
         <Fade bottom>

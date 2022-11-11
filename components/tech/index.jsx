@@ -5,7 +5,7 @@ const Tech = () => {
   return (
     <div className="tech-container">
       <Fade bottom>
-        <h2 className="py-5">Start Up & Tech Visa</h2>
+        <h2 className="py-5">START UP & TECH VISA</h2>
       </Fade>
       <div className="container-fluid image-container"></div>
       <div className="container p-4">

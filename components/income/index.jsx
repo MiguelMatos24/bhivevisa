@@ -5,7 +5,7 @@ const Income = () => {
   return (
     <div className="income-container">
       <Fade bottom>
-        <h2 className="py-5">Retirement & Own Income</h2>
+        <h2 className="py-5">RETIREMENT & OWN INCOME</h2>
       </Fade>
       <div className="container-fluid image-container"></div>
       <div className="container p-4">
