@@ -6,13 +6,13 @@ const Team = () => {
       name: "Mariana Vaz Marques",
       post: "Chief Executive Officer & Chief Legal Officer",
       mail: "mariana.vazmarques@bhivevisa.com",
-      url: "/team/mariana.jpeg",
+      url: "/team/Mariana.jpg",
     },
     {
       name: "Adriana Spanholi",
       post: "Chief Distribution Officer",
       mail: "adriana.spanholi@bhivevisa.com",
-      url: "/team/adriana.jpeg",
+      url: "/team/adriana.jpg",
     },
     {
       name: "Guilherme Romão",
@@ -24,19 +24,13 @@ const Team = () => {
       name: "Rachel Sá",
       post: "Legal Counsel",
       mail: "rachel.sa@bhivevisa.com",
-      url: "/team/rachel.png",
+      url: "/team/rachel.jpeg",
     },
     {
-      name: "Inês Damião",
-      post: "International Client Assistant",
-      mail: "ines.damiao@bhivevisa.com",
-      url: "/team/inês.png",
-    },
-    {
-      name: "Marta Oliveira",
-      post: "Legal Assistant",
-      mail: "marta.oliveira@bhivevisa.com",
-      url: "/team/marta.jpg",
+      name: "Teresa Morais Correia",
+      post: "Legal Counsel",
+      mail: "teresa.correia@bhivevisa.com",
+      url: "/team/teresa.jpg",
     },
   ];
   return (
