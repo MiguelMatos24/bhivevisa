@@ -52,7 +52,7 @@ const footer = () => {
             <Link href="#">
               <div className="py-2">Privacy and Legal</div>
             </Link>
-            <div className="py-2">© Bhive Visa. All Rights Reserved.</div>
+            <div className="py-3">© Bhive Visa. All Rights Reserved.</div>
           </div>
         </div>
       </div>
