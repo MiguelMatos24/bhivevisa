@@ -24,7 +24,7 @@ const Team = () => {
       name: "Rachel Sá",
       post: "Legal Counsel",
       mail: "rachel.sa@bhivevisa.com",
-      url: "/team/rachel.jpeg",
+      url: "/team/rachel.jpg",
     },
     {
       name: "Teresa Morais Correia",
