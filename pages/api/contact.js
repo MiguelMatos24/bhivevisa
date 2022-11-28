@@ -25,7 +25,7 @@ const f = async (req, res) => {
       
       `,
     });
-    console.log("name", name);
+  
   } catch (error) {
     return res.status(500).json({ error: error.message || error.toString() });
   }
